@@ -1,40 +1,30 @@
-/*
-// variável, seu valor pode ser alterado no decorrer  do programa
-let nomeEstudante = "Helena";
-console.log(nomeEstudante);
+var opcao = 1;
+function realizarInsc ()
+{
+   let idade = 17;
+    if (idade >= 18) {
+        console.log("Cadastro permitido!");
+              }
+    else {
+        console.log("Cadastro não permitido, menor de idade!");
+      }
+}
 
-// constante, seu valor não pode ser alterado
-const nomeDoEstudante = "Helena";
-console.log(nomeDoEstudante);
-
-//Em outras linguagens, portanto, você encontrará    algo semelhante a:
-String: nomeEstudante = "Helena"; 
-*/
-
-
-/*
-// Usando o for
-let listaDeEstudantes = ["Helena", "Chico", "Mário"];
-let    quantidadeDeEstudantes =  listaDeEstudantes.length;
-//console.log(quantidadeDeEstudantes);
-for (let indice = 0; indice < quantidadeDeEstudantes;
-    indice++) {
-        const alunoCorrente = listaDeEstudantes[indice];
-        console.log(alunoCorrente);
+if ((opcao == 1 ) || (opcao == 2) || (opcao == 3 ))
+{
+switch (opcao) {
+    case 1:
+        realizarInsc ();
+        console.log ("opcao 1 escolhida");
+    break;
+    case 2:
+        console.log ("opcao 2 escolhida");
+    break;
+    case 3:
+        console.log ("opcao 3 escolhida");
+    break;
     }
-*/
-
-/*
-//Com o do:
-let listaDeEstudantes = ["Helena", "Chico", "Mário"];
-let    quantidadeDeEstudantes =  listaDeEstudantes.length;
-let inicio = 0;
-
-do {
-    console.log(listaDeEstudantes[inicio]);
-        inicio++;
-   } while (inicio < quantidadeDeEstudantes);
-
-*/
-
-
+ } 
+    else {
+        console.log ("por favor digite uma opção valida");
+         }
