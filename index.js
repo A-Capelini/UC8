@@ -1,9 +1,16 @@
+console.log("por favor escolha uma opção");
+console.log("1 - Para realizar Inscrição");
+console.log("2 - Para visualizar eventos");
+console.log("3 - Para Sair");
+
 var opcao = 1;
 function realizarInsc ()
 {
+    // variavel idade deveria ser inserida pelo usuario 
    let idade = 18;
     if (idade >= 18) {
         console.log("Cadastro permitido!");
+        
               }
     else {
         console.log("Cadastro não permitido, menor de idade!");
