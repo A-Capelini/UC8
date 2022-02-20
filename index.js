@@ -3,7 +3,10 @@ console.log("1 - Para realizar Inscrição");
 console.log("2 - Para visualizar eventos");
 console.log("3 - Para Sair");
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> test
 var opcao = 1;
 function realizarInsc ()
 {
@@ -11,6 +14,7 @@ function realizarInsc ()
    let idade = 18;
     if (idade >= 18) {
         console.log("Cadastro permitido!");
+<<<<<<< HEAD
 let listaDeInscrito = ["Lucas","Francisco","Anderson","Flávia","Chico", "Mário", "José", "Maria"];
 let quantidadeDeinscritos = listaDeInscrito.length;
 if (quantidadeDeinscritos < 100) {
@@ -23,6 +27,9 @@ if (quantidadeDeinscritos < 100) {
     console.log("Cadastro não realizado, limite de inscrição excedido");
 }
 
+=======
+        
+>>>>>>> test
               }
     else {
         console.log("Cadastro não permitido, menor de idade!");
