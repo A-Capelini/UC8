@@ -6,12 +6,12 @@
 
 
 
-#### Este Código foi criado para fixação do aprendizado referente as matérias
+#### Este Código foi criado para fixação do aprendizado referente as matérias:
 
 - UC7 - Versionamento de Código.
 - UC8 - Lógica de  Programação.
 
-#### Código que conforme for avançando o aprendizado ele será modificado.
+#### Código que conforme for avançando o aprendizado será modificado.
 
 
 
